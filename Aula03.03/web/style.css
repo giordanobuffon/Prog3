@@ -1,10 +1,88 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 03/03/2017, 10:16:19
-    Author     : 10070241
-*/
+body {
+    font-family: 'Arial', sans-serif;
+    letter-spacing: -0.03em;
+    color: #333;
+    font-size: 14pt;
+    font-weight: 300;
+    background-color: #eeeeee;
+}
+
+#logo_gm {
+    position: absolute;
+    top: 40px;
+    left: 545px;
+    margin: auto;
+}
+
+#camisa {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: 32px;
+    margin-bottom: -17px;
+    width: 1271px;
+    display: flex;
+}
+
+#sobre_gm {
+    position: absolute;
+    top: auto;
+    left: 0;
+    right: 0;
+    margin: auto auto 12px auto;
+    width: 1000px;
+}
+
+ol {
+    margin-left: -8px;
+}
+
+ol li {
+    text-align: center;
+    list-style: none;
+    border: 1px #000000 solid;
+    padding: 10px;
+    width: 189px;
+    margin-right: 1px;
+    float: left;
+    background-color: #000000;
+}
+
+ol li:hover, ol li.active {
+    background-color: #00acec;
+}
+
+ol li a:hover {
+    color: #000000;
+}
+
+#this {
+    text-decoration: underline;
+    background-color: #00acec;
+}
+
+#this a {
+    color: #000000;
+}
+
+a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h2 {
+    margin-top: 100px;
+    margin-left: 37px;
+    font-size: 28pt;
+    font-weight: 700;
+}
+
+p {
+    margin-right: 37px;
+    margin-left: 37px;
+    text-align: justify;
+}
+
+
 
