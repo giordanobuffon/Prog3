@@ -13,9 +13,9 @@
 <body>
 
 <img src="gremiomania.png" id="logo_gm">
-<img src="camisa_gremio.jpg" id="camisa">
+<img src="camisa_logo.jpg" id="logo_shirt">
 
-<ol>
+<ol class="menu">
     <li><a href="index.html">INSTITUCIONAL</a></li>
     <li><a href="products.html">PRODUTOS</a></li>
     <li id="this"><a href="purchase_requests.html">PEDIDOS DE COMPRA</a></li>
@@ -24,5 +24,17 @@
     <li><a href="map.html">MAPA</a></li>
 </ol>
 
+<h2>Acompanhe seu Pedido de Compra</h2>
+
+<form class="request_form">
+    <img src="gremiomania.png" id="request_logo"/>
+    <label for="request_number">Número do Pedido:</label>
+    <input type="number" id="request_number" value="198436047"/>
+    <br><br>
+    <label for="Validation_key">Chave de Validação:</label>
+    <input type="password" id="Validation_key" value="programacao3"/>
+    <br><br>
+    <button class="request_button">Consultar</button>
+</form>
 </body>
 </html>

@@ -13,9 +13,9 @@
 <body>
 
 <img src="gremiomania.png" id="logo_gm">
-<img src="camisa_gremio.jpg" id="camisa">
+<img src="camisa_logo.jpg" id="logo_shirt">
 
-<ol>
+<ol class="menu">
     <li><a href="index.html">INSTITUCIONAL</a></li>
     <li id="this"><a href="products.html">PRODUTOS</a></li>
     <li><a href="purchase_requests.html">PEDIDOS DE COMPRA</a></li>
@@ -24,5 +24,33 @@
     <li><a href="map.html">MAPA</a></li>
 </ol>
 
+<h2>Busca de Produtos</h2>
+
+<form class="products_form">
+    <label for="category">Categoria:</label>
+    <input type="search" id="category" value="Camisa"/>
+    <label for="description">Descrição:</label>
+    <input type="search" id="description" value="Torcedor"/>
+    <br><br>
+    <button class="products_button">Pesquisar</button>
+</form>
+
+<ol class="shirts">
+    <li>
+        <img src="shirt_I.jpg" id="fan_shirt_I"/>
+        <p>Camisa Oficial Masc. I Fan-Torcedor 2016</p>
+        <p class="price">R$ 219,90</p>
+    </li>
+    <li>
+        <img src="shirt_II.jpg" id="fan_shirt_II"/>
+        <p>Camisa Oficial Masc. II Fan-Torcedor 2016</p>
+        <p class="price">R$ 159,90</p>
+    </li>
+    <li>
+        <img src="shirt_III.jpg" id="fan_shirt_III">
+        <p>Camisa Oficial Masc. III Fan-Torcedor 2016</p>
+        <p class="price">R$ 219,90</p>
+    </li>
+</ol>
 </body>
 </html>
